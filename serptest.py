@@ -34,7 +34,7 @@ def scrape_google_trends(data_type: str, key: str, query: str):
 	
 	search = GoogleSearch(params)           # where data extraction happens on the SerpApi backend
 	results = search.get_dict()         	# JSON -> Python dict
-	
+	## check results here later 
 	return results 
 
 
